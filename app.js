@@ -9,7 +9,7 @@ function getUrl(input){
 }
 
 function errorHandling(error){
-    console.log("Error occurred : " + error);
+    console.log("Error occured : " + error);
     alert("There was an error with the server. Try again later");
 }
 
@@ -17,7 +17,7 @@ function clickHandler() {
     var textInput = txtInput.value;
 
     fetch(getUrl(textInput))
-        .then(response => response.json)
+        .then(response => response.json())
         .then(json => {
             var outputText = json.contents.translated;
             outputDiv.innerText = outputText;
