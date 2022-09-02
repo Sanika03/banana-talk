@@ -9,7 +9,14 @@ function getUrl(input){
 }
 
 function clickHandler() {
-    outputDiv.innerText = "banana nana baba banana" + txtInput.value;
+    var textInput = txtInput.value;
+
+    fetch(getUrl(textInput))
+        .then(response => response.json)
+        .then(json => {
+            var outputText = json.contents.translated;
+            outputDiv.innerText = outputText;
+        })
 }
 
 btnTranslate.addEventListener("click", clickHandler);
