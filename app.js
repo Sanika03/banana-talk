@@ -8,6 +8,11 @@ function getUrl(input){
     return (serverUrl + "?" + "text=" + input);
 }
 
+function errorHandling(error){
+    console.log("Error occurred : " + error);
+    alert("There was an error with the server. Try again later");
+}
+
 function clickHandler() {
     var textInput = txtInput.value;
 
@@ -17,6 +22,7 @@ function clickHandler() {
             var outputText = json.contents.translated;
             outputDiv.innerText = outputText;
         })
+        .catch(errorHandling);
 }
 
 btnTranslate.addEventListener("click", clickHandler);
