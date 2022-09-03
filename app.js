@@ -5,12 +5,12 @@ var outputDiv = document.querySelector("#output");
 var serverUrl = "https://api.funtranslations.com/translate/minion.json";
 
 function getUrl(input){
-    return (serverUrl + "?" + "text=" + input);
+    return (serverUrl + "?" + "text=" + input)
 }
 
 function errorHandling(error){
     console.log("Error occured : " + error);
-    alert("There was an error with the server. Try again later");
+    alert("There was an error with the server. Try again later")
 }
 
 function clickHandler() {
@@ -22,7 +22,7 @@ function clickHandler() {
             var outputText = json.contents.translated;
             outputDiv.innerText = outputText;
         })
-        .catch(errorHandling);
-}
+        .catch(errorHandling)
+};
 
-btnTranslate.addEventListener("click", clickHandler);
+btnTranslate.addEventListener("click", clickHandler)
