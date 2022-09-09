@@ -25,10 +25,12 @@ HTML, CSS, Vanilla.js
 Sanika Suryawanshi :- 
 <ul>
   <li><a href="https://twitter.com/Sanika_0305">Twitter</a></li>
+  
+  <li><a href="https://www.linkedin.com/in/sanika-suryawanshi-b17181205/">LinkedIn</a></li>
 
   <li><a href="mailto:sanikasuryawanshi0305@gmail.com">Email</a></li>
 
-  <li><a href="https://replit.com/@SanikaSuryawans/How-well-do-you-know-Hollywood-music#index.js?embed=1&output=1%20add">Project Link</a></li>
+  <li><a href="https://minionese-banana-talk.netlify.app/">Project Link</a></li>
 </ul>
 
 <h2>ACKNOWLEDGMENTS</h2> 
