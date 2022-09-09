@@ -23,11 +23,14 @@ HTML, CSS, vanilla.js
 
 <h2>CONTACT</h2>
 Sanika Suryawanshi :- 
-[Twitter](https://twitter.com/Sanika_0305)  
-<a href="mailto:sanikasuryawanshi0305@gmail.com">Email</a>  
-[Project link](https://replit.com/@SanikaSuryawans/How-well-do-you-know-Hollywood-music#index.js?embed=1&output=1%20add)
+<ul>
+  <li><a href="https://twitter.com/Sanika_0305">Twitter</a></li>
 
+  <li><a href="mailto:sanikasuryawanshi0305@gmail.com">Email</a></li>
+
+  <li><a href="https://replit.com/@SanikaSuryawans/How-well-do-you-know-Hollywood-music#index.js?embed=1&output=1%20add">Project Link</a></li>
+</ul>
 
 <h2>ACKNOWLEDGMENTS</h2> 
 Team Tanay's tutorial by Tanay Pratap helped me make my first web app.
-Here's the [link](https://www.youtube.com/watch?v=yLZazznWoAs&t=7391s) to the tutorial.
+Here's the <a href="https://www.youtube.com/watch?v=yLZazznWoAs&t=7391s">link</a> to the tutorial.
