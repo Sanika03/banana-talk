@@ -32,5 +32,5 @@ Sanika Suryawanshi :-
 </ul>
 
 <h2>ACKNOWLEDGMENTS</h2> 
-Team Tanay's tutorial by Tanay Pratap helped me make my first web app.
+neoG Camp's tutorial by Tanay Pratap helped me make my first web app.
 Here's the <a href="https://www.youtube.com/watch?v=yLZazznWoAs&t=7391s">link</a> to the tutorial.
