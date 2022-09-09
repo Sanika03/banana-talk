@@ -4,7 +4,7 @@
 Translate your text from to English to minionese, the minion language.
 
 <h2>BUILT WITH :</h2>
-HTML, CSS, vanilla.js
+HTML, CSS, Vanilla.js
 
 <h2>TRANSLATION POWERED BY :</h2>
 <a href="https://funtranslations.com/" >Fun Translations Web API</a>
