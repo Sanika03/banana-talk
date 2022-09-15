@@ -55,6 +55,11 @@
             overflow: scroll;
         }
 
+        #error-div{
+            display: block;
+            margin: 2% 9% 2% 9%;           
+        }
+
         .font{
             font-weight: bold;
             color: var(--text-color);
@@ -129,6 +134,8 @@
     <div class="row">
         <div class="container">
             <textarea id="txt-input" placeholder="Put your sentence in English here to convert it to banana language"></textarea>
+
+            <div id="error-div"></div>
 
             <button id="btn-translate">Translate</button>
 
